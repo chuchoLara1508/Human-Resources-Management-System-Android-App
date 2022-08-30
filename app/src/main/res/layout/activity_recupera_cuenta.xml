@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="@drawable/ic_fondo_app"
+        android:layout_height="match_parent"
+        tools:context=".RecuperaCuenta">
+    <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="65sp"
+            android:background="#060e47"
+            tools:ignore="MissingConstraints"
+            app:title="Recuperación de cuenta"
+            app:subtitle="Por favor ingrese un correo electrónico: "
+            app:titleTextColor="#ffffff"
+            app:titleMarginStart="50sp"
+            app:logo="@drawable/ic_baseline_key_24"
+            app:subtitleTextColor="#fff"
+            android:id="@+id/barra1"
+    />
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="350sp"
+            android:background="#13232F"
+            android:layout_height="wrap_content"
+            android:padding="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/barra1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+    >
+        <EditText
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="40sp"
+                android:textSize="25sp"
+                android:hint="ejemplo@gmail.com"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:layout_width="250sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/correoRecupera"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints"/>
+        <Button
+                android:layout_marginTop="70sp"
+                android:layout_width="250sp"
+                android:layout_height="60sp"
+                android:text="Buscar"
+                android:id="@+id/busca"
+                app:layout_constraintTop_toTopOf="@+id/correoRecupera"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+        />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

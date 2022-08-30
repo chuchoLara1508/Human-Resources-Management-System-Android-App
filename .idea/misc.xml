@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/drawable/ic_baseline_account_box_24.xml" value="0.14487179487179488" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.14487179487179488" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/drawable/ic_baseline_co_present_24.xml" value="0.14487179487179488" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/activity_pdf.xml" value="0.25" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/activity_principal.xml" value="0.22" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/activity_recupera_cuenta.xml" value="0.25" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/app_bar_main.xml" value="0.25" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/barra_progreso.xml" value="0.22" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/fragment_barra_progreso.xml" value="0.33" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/fragment_consulta_departamento.xml" value="0.33" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/fragment_consulta_empleado.xml" value="0.2" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/fragment_consulta_incapacidad.xml" value="0.2" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/fragment_consulta_nomina.xml" value="0.1282051282051282" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/fragment_consulta_puesto.xml" value="0.2446730345334313" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/fragment_consulta_rol_permiso.xml" value="0.1834710743801653" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/fragment_consulta_usuario.xml" value="0.2" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/fragment_departamento.xml" value="0.33" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/fragment_departamentos.xml" value="0.1282051282051282" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/fragment_empleado.xml" value="0.5181058495821727" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/fragment_incapacidad.xml" value="0.25" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/fragment_inicio.xml" value="0.5" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/fragment_nomina.xml" value="0.4793814432989691" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/fragment_puesto.xml" value="0.25" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/fragment_rol_permiso.xml" value="0.33" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/fragment_usuario.xml" value="0.25" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/nav_header_main.xml" value="0.2" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/table_row_departamentos.xml" value="0.5" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/table_row_empleados.xml" value="0.67" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/table_row_incapacidades.xml" value="0.33" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/table_row_nominas.xml" value="0.67" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/table_row_puestos.xml" value="0.42513863216266173" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/table_row_rolpermiso.xml" value="0.33" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/layout/table_row_usuarios.xml" value="0.1282051282051282" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/menu/activity_main_drawer.xml" value="0.22" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/menu/menu_pdf.xml" value="0.25" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14487179487179488" />
+        <entry key="..\:/Users/Chucho Lara/IntelliJIDEAProjects/RecursosHumanos/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14487179487179488" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="jbr-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Departamento">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+            android:gravity="center"
+            android:layout_marginTop="60sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="Nota: Los campos marcados con * son obligatorios."
+            android:id="@+id/obligatorios"
+    />
+
+    <TextView
+            android:gravity="center"
+            android:layout_marginTop="90sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Nombre del departamento*: "
+            android:id="@+id/etinombre"
+    />
+    <EditText
+            android:layout_marginTop="110sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:id="@+id/departamento"
+    />
+    <TextView
+            android:gravity="center"
+            android:layout_marginTop="155sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Descripción: "
+            android:id="@+id/etidesc"
+    />
+    <EditText
+            android:layout_marginTop="175sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:id="@+id/descripcion"
+    />
+    <Button
+            android:layout_marginTop="230sp"
+            android:layout_width="120sp"
+            android:layout_height="50sp"
+            android:text="Registrar"
+            android:background="@color/exito"
+            android:layout_gravity="left"
+            android:id="@+id/registro"
+    />
+    <Button
+            android:layout_marginTop="230sp"
+            android:layout_width="120sp"
+            android:layout_height="50sp"
+            android:text="Limpiar"
+            android:background="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/limpiar"
+    />
+    <Button
+            android:layout_marginTop="230sp"
+            android:layout_width="120sp"
+            android:layout_height="50sp"
+            android:text="Consulta"
+            android:background="@color/black"
+            android:layout_gravity="right"
+            android:id="@+id/consulta_depto"
+    />
+
+</FrameLayout>

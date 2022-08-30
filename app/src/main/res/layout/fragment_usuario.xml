@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".Usuario">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+            android:gravity="center"
+            android:layout_marginTop="60sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nota: Los campos marcados con * son obligatorios."
+            app:layout_constraintBottom_toBottomOf="@+id/principal"
+            app:layout_constraintBottom_toTopOf="@+id/etinombre"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/obligatorios"
+            tools:ignore="MissingConstraints"/>
+    <TextView
+            android:gravity="center"
+            android:layout_marginTop="90sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Empleado*: "
+            android:id="@+id/etinombre"
+    />
+    <Spinner
+            android:layout_marginTop="120sp"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:id="@+id/empleadoLista"
+    >
+    </Spinner>
+    <TextView
+            android:gravity="center"
+            android:layout_marginTop="170sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Rol*: "
+            android:id="@+id/etidesc"
+    />
+    <Spinner
+            android:layout_marginTop="200sp"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:id="@+id/rolLista"
+    >
+    </Spinner>
+    <TextView
+            android:layout_marginTop="250sp"
+            android:text="Correo electrónico*:"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    />
+    <EditText
+            android:layout_marginTop="280sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/correo"
+            android:inputType="textEmailAddress"
+    />
+    <Button
+            android:layout_marginTop="330sp"
+            android:layout_width="120sp"
+            android:layout_height="50sp"
+            android:text="Registrar"
+            android:id="@+id/ingresar"
+    />
+    <Button
+            android:layout_marginTop="330sp"
+            android:layout_width="120sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center_horizontal"
+            android:text="Limpiar"
+            android:id="@+id/clean"
+    />
+    <Button
+            android:layout_marginTop="330sp"
+            android:layout_width="120sp"
+            android:layout_height="50sp"
+            android:layout_gravity="right"
+            android:text="Consulta"
+            android:id="@+id/consulta_usuario"
+    />
+</FrameLayout>

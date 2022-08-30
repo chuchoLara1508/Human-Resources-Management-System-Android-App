@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_item_one"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Inicio"
+        />
+        <item
+                android:id="@+id/nav_item_nine"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:title="Salir"
+        />
+    </group>
+    <item android:title="Módulos">
+        <menu>
+            <item
+                    android:id="@+id/nav_item_two"
+                    android:icon="@drawable/ic_baseline_create_24"
+                    android:title="Departamentos"
+            />
+            <item
+                    android:id="@+id/nav_item_three"
+                    android:icon="@drawable/ic_baseline_contact_page_24"
+                    android:title="Puestos"
+            />
+            <item
+                    android:id="@+id/nav_item_four"
+                    android:icon="@drawable/ic_baseline_boy_24"
+                    android:title="Empleados"
+            />
+            <item
+                    android:id="@+id/nav_item_five"
+                    android:icon="@drawable/ic_baseline_accessible_forward_24"
+                    android:title="Incapacidades"
+            />
+            <item
+                    android:id="@+id/nav_item_six"
+                    android:icon="@drawable/ic_baseline_attach_money_24"
+                    android:title="Nóminas"
+            />
+            <item
+                    android:id="@+id/nav_item_seven"
+                    android:icon="@drawable/ic_baseline_checklist_24"
+                    android:title="Roles y Permisos"
+            />
+            <item
+                    android:id="@+id/nav_item_eight"
+                    android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+                    android:title="Usuarios"
+            />
+        </menu>
+    </item>
+
+</menu>

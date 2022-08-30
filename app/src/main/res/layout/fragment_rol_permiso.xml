@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".RolPermiso">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+            android:gravity="center"
+            android:layout_marginTop="60sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nota: Los campos marcados con * son obligatorios."
+            app:layout_constraintBottom_toBottomOf="@+id/principal"
+            app:layout_constraintBottom_toTopOf="@+id/etinombre"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/obligatorios"
+            tools:ignore="MissingConstraints"/>
+    <TextView
+            android:gravity="center"
+            android:layout_marginTop="90sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Seleccione un rol*: "
+            android:id="@+id/etinombre"
+    />
+    <Spinner
+            android:layout_marginTop="120sp"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:id="@+id/rolLista"
+    >
+    </Spinner>
+    <TextView
+            android:gravity="center"
+            android:layout_marginTop="170sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Seleccione un módulo*: "
+            android:id="@+id/etidesc"
+    />
+    <Spinner
+            android:layout_marginTop="200sp"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:id="@+id/moduloLista"
+    >
+    </Spinner>
+   <TextView
+           android:layout_marginTop="250sp"
+           android:text="Permisos*:"
+           android:textSize="20sp"
+           android:gravity="center"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+   />
+    <CheckBox
+            android:layout_marginTop="290sp"
+            android:layout_marginLeft="20sp"
+            android:layout_width="110sp"
+            android:text="Guardar"
+            android:layout_height="30sp"
+            android:id="@+id/alta"
+    />
+    <CheckBox
+            android:layout_marginTop="290sp"
+            android:layout_width="110sp"
+            android:text="Eliminar"
+            android:layout_height="30sp"
+            android:layout_marginLeft="185sp"
+            android:id="@+id/baja"
+    />
+    <CheckBox
+            android:layout_marginTop="290sp"
+            android:layout_width="110sp"
+            android:text="Actualizar"
+            android:layout_height="30sp"
+            android:layout_gravity="right"
+            android:layout_marginRight="20sp"
+            android:id="@+id/modifica"
+    />
+    <Button
+            android:layout_marginTop="340sp"
+            android:layout_width="150sp"
+            android:text="Registrar permisos"
+            android:layout_height="55sp"
+            android:layout_gravity="left"
+            android:textSize="15sp"
+            android:id="@+id/registrar"
+    />
+    <Button
+            android:layout_marginTop="340sp"
+            android:layout_width="150sp"
+            android:text="Consulta"
+            android:layout_height="55sp"
+            android:layout_gravity="right"
+            android:textSize="15sp"
+            android:id="@+id/consulta_rol_permiso"
+    />
+
+</FrameLayout>

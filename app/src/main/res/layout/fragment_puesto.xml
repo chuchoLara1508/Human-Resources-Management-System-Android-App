@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Puesto">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+            android:gravity="center"
+            android:layout_marginTop="60sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="Nota: Los campos marcados con * son obligatorios."
+            android:id="@+id/obligatorios"
+    />
+
+    <TextView
+            android:gravity="center"
+            android:layout_marginTop="90sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Nombre del puesto*: "
+            android:id="@+id/etinombre"
+    />
+    <EditText
+            android:layout_marginTop="110sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:id="@+id/puesto"
+    />
+    <TextView
+            android:gravity="center"
+            android:layout_marginTop="155sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Descripción*: "
+            android:id="@+id/etidesc"
+    />
+    <EditText
+            android:layout_marginTop="175sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:id="@+id/desc"
+    />
+    <TextView
+            android:gravity="center"
+            android:layout_marginTop="220sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Departamento al que pertenece*: "
+            android:id="@+id/etidepto"
+    />
+    <Spinner
+            android:gravity="center"
+            android:layout_marginTop="245sp"
+            android:layout_width="match_parent"
+            android:layout_height="49sp"
+            android:id="@+id/departamentoLista"
+    >
+    </Spinner>
+    <TextView
+            android:gravity="center"
+            android:layout_marginTop="300sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Pago por hora*: "
+            android:id="@+id/etipago"
+    />
+    <EditText
+            android:gravity="center"
+            android:layout_marginTop="320sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:maxLength="3"
+            android:ems="10"
+            android:id="@+id/pago"
+    />
+    <Button
+            android:layout_marginTop="380sp"
+            android:layout_width="120sp"
+            android:layout_height="50sp"
+            android:text="Registrar"
+            android:background="@color/exito"
+            android:layout_gravity="left"
+            android:id="@+id/registro"
+    />
+    <Button
+            android:layout_marginTop="380sp"
+            android:layout_width="120sp"
+            android:layout_height="50sp"
+            android:text="Limpiar"
+            android:background="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/limpiar"
+    />
+
+
+    <Button
+            android:layout_marginTop="380sp"
+            android:layout_width="120sp"
+            android:layout_height="50sp"
+            android:text="Consulta"
+            android:background="@color/black"
+            android:layout_gravity="right"
+            android:id="@+id/consulta_puesto"
+    />
+
+</FrameLayout>
